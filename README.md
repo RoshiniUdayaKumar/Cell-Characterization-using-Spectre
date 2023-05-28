@@ -27,7 +27,7 @@ Inverter AC Simulations:
 
 ![Current values](https://github.com/RoshiniUdayaKumar/Cell-Characterization-using-Spectre/assets/133715179/625ef5b8-8ca8-46e2-a0f6-511fd22d496b)
 
-Frequency	Current 	#VALUE!
+AC Simulation Table:
 
 ![image](https://github.com/RoshiniUdayaKumar/Cell-Characterization-using-Spectre/assets/133715179/76f33f4c-d7ef-4d57-867e-a22bbb7573b6)
 
