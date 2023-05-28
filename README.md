@@ -76,7 +76,9 @@ Frequency Delay Table
 
 Notes on writing the files:
 
-1.The cell.spi file is the standard cell description file which is written in the spectre format.
+1.cell.spi file:
+
+It is the standard cell description file which is written in the spectre format.
 
 The cell under consideration is written as a sub-circuit defining the inputs and outputs.
 
