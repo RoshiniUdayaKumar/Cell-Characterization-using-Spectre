@@ -75,21 +75,32 @@ Frequency Delay Table
 ![Finalplot](https://github.com/RoshiniUdayaKumar/Cell-Characterization-using-Spectre/assets/133715179/ba866560-83ce-41fe-a21d-c1f7d32dc9f7)
 
 Notes on writing the files:
+
 1.The cell.spi file is the standard cell description file which is written in the spectre format.
+
 The cell under consideration is written as a sub-circuit defining the inputs and outputs.
+
 We could use M1,M2 as the naming conventions for the transistors.
+
 We will also define the terminals of these transistors in the order of drain, gate, source and body.
+
 We could also define the length(l) and width(w).
 
 2.Simulation file:
+
 We shall include the libraries required to run the simulation (which is a model card ie., model.spi and cell sub circuit which is cell.spi)
+
 We shall include the voltage sources VDD and GND and the node declaration is done as: 
 
 Name (node1 … nodeN) master [ [param1 = value1] … [paramN = valueN] ]
 
 To observe the outputs, lets include vpwl which is a voltage piecewise linear waveform. 
+
 The standard cells are denoted as X1 and the connection of its terminals are defined following the convention as above.
+
 Component R1 is a resistor with 1Ω.
+
 Component C1 is a capacitor with 100fF. Note ‘f’, femto, indicate 1.0e-15.
+
 The last two sentences claim the running time and the step accuracy of the simulation.
 
