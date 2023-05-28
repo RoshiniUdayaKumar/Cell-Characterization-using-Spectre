@@ -1,0 +1,21 @@
+//Spice netlist for an XOR2 
+simulator lang=spectre
+subckt XOR2 (inputA inputB output VDD VSS)
+        parameters wp=0.6u lp=0.2u wn=0.3u ln=0.3u    
+        M1 outputAbar inputA VDD VDD tsmc18P w=wp l=lp  //for the inverter 1
+        M2 outputAbar inputA VSS VSS tsmc18N w=wp l=lp  //for the inverter 1
+
+        M3 outputBbar inputB VDD VDD tsmc18P w=wp l=lp  //for the inverter 2
+        M4 outputBbar inputB VSS VSS tsmc18N w=wp l=lp  //for the inverter 2
+         
+         
+        M5 X inputB VDD VDD tsmc18P w=wp l=lp
+        M6 Y Bbar VDD VDD tsmc18P w=wn l=ln
+        M7 output Abar X VDD tsmc18P w=wp l=lp
+        M8 output inputA Y VDD tsmc18P w=wn l=ln
+
+        M9 output Abar R VSS tsmc18N w=wp l=lp
+        M10 output inputA S VDD tsmc18N w=wn l=ln
+        M11 R Bbar  VSS tsmc18N w=wp l=lp
+        M12 S inputB VSS VSS tsmc18N w=wn l=ln
+ends XOR2
