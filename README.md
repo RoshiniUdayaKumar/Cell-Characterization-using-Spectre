@@ -15,4 +15,5 @@ Creating a time-domain system based on a collection of state variables and then 
 In this file, you need to define the netlist of your circuit, including necessary libraries, and write simulation controls.
 3. The output is observed in WV(Waveform Viewer)
 
+Cell Characterization for Inverter:
 
