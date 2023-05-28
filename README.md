@@ -15,5 +15,20 @@ Creating a time-domain system based on a collection of state variables and then 
 In this file, you need to define the netlist of your circuit, including necessary libraries, and write simulation controls.
 3. The output is observed in WV(Waveform Viewer)
 
+Results:
 Cell Characterization for Inverter:
+![InvPlot1](https://github.com/RoshiniUdayaKumar/Cell-Characterization-using-Spectre/assets/133715179/072a6f3b-bf56-4126-b29b-dfbfa89fa212)
 
+Inverter Delay Table:
+
+![image](https://github.com/RoshiniUdayaKumar/Cell-Characterization-using-Spectre/assets/133715179/aa838020-36f7-4d44-8f98-ddbe90e9d6d6)
+
+Inverter AC Simulations:
+
+![Current values](https://github.com/RoshiniUdayaKumar/Cell-Characterization-using-Spectre/assets/133715179/625ef5b8-8ca8-46e2-a0f6-511fd22d496b)
+
+Frequency	Current 	#VALUE!
+
+![image](https://github.com/RoshiniUdayaKumar/Cell-Characterization-using-Spectre/assets/133715179/76f33f4c-d7ef-4d57-867e-a22bbb7573b6)
+
+Sink Capacitance: 3.27421E-15 (3.27fF)
